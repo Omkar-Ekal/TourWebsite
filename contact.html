@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+
+    <title>Omkar|Tourism-Tech</title>
+    <style>
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="C:\Users\omkar\Desktop\TourWebsite\index.html">Tourism-Tech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="C:\Users\omkar\Desktop\TourWebsite\index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\omkar\Desktop\TourWebsite\about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="C:\Users\omkar\Desktop\TourWebsite\contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <h4 class="display-6 text-center text-danger my-2">Contact Us</h4>
+    <div class="container my-3">
+        <form action="#" method="post">
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Enter Your Name: </label>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" id="fname" name="fname" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" id="lname" name="lname" placeholder="Last name" aria-label="Last name">
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Enter Contact No: </label>
+                <input type="text" class="form-control" id="contact" name="contact" placeholder="Contact No.">
+            </div>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Enter Your Email: </label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                </div>
+
+                <div class="form-floating my-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="query" name="query" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Enter Your Query Here</label>
+                </div>
+                <div class='alert alert-danger' role='alert' id="click" style="display: none">
+                    Your Query is Successfully Submitted.
+                </div>
+                <button type="button" class="btn btn-primary my-1" onclick="document.getElementById('click').style.display='block'">Submit</button>
+            </form>
+    </div>
+
+    <footer class="container my-2">
+        <p class="float-end"><a href="C:\Users\omkar\Desktop\TourWebsite\contact.html">Back to top</a></p>
+        <p>© 2017-2021 Tourism-Tech, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
